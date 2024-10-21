@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input {
+    font-size: 2rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.numeros {
+    padding: 1rem;
+}
+
+#signo {
+    display: flex;
+    justify-content: center;
+}
+
+.signos {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.signos button {
+    font-size: 2rem;
+}
